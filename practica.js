@@ -61,7 +61,14 @@ console.log (`El numero ingresado por el cliente es correcto ${numeroDeCliente =
 //ejercicio 36//
 let numerito1 = 10;
 let numerito2 = 20;
-console.log ( "Las variables tienen el mismo valor " )
+console.log ( `Las variables tienen el mismo valor ${ numerito1 == numerito2}` )
+console.log ( `Las variables tienen distinto valor ${ numerito1 != numerito2}` )
+
+//ejercicio 37//
+let promedioParaAprobar = 6;
+let promedioDelAlumno = 4;
+console.log ( `El alumno alcanza el promedio requerido ${ promedioDelAlumno >= promedioParaAprobar}`);
+console.log ( `El alumno necesita ${ promedioParaAprobar - promedioDelAlumno} puntos para aprobar`);
 
 //ejercicio clase 33//
 // const nombre = prompt("Escribí tu nombre");
